@@ -27,7 +27,14 @@
                     <h2>is creating music...</h2>
                 </div>
             </div>
-
+            <div class="units-row">
+                <div class="unit-push-60">
+                    <p class="lead">New songs will be released soon...</p>
+                </div>
+                <div class="unit-20">
+                    
+                </div>
+            </div>
         </div>
     </form>
 </body>
