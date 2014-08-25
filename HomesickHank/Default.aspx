@@ -12,7 +12,8 @@
     <link href="Styles/kube.min.css" rel="stylesheet" />
     <link href="Styles/Style.css" rel="stylesheet" />
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://stratus.sc/stratus.js"></script>
 </head>
 
 <body>
@@ -37,11 +38,27 @@
             </div>
             <div class="units-row">
                 <div class="unit-push-05 player">
-                    <%--<iframe width="15%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/164734462&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>--%>
                 </div>
             </div>
 
         </div>
+        
+       <script type="text/javascript">
+           $(document).ready(function () {
+               if ($(window).width() > 700) {
+                   $.stratus({
+                       links: 'https://soundcloud.com/homesick-hank/man-of-sorrow',
+                       auto_play: false,
+                       download: false,
+                       user: true,
+                       theme: 'http://stratus.sc/themes/dark.css',
+                   });
+               } else {
+                   $('.player').append('<iframe width="50%" height="100" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/164740412&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>')
+               }
+               
+           });
+</script>
     </form>
 </body>
 </html>
