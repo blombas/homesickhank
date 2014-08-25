@@ -18,7 +18,6 @@
 
 .header-row {
     margin-top: 50px;
-    margin-left: 20px;
 }
 
 h1, h2, h3, h4 {
@@ -27,6 +26,13 @@ h1, h2, h3, h4 {
 
 .lead {
     color: #FFFFF0;
-    margin-left: 8px;
+}
+
+.units-container {
+    padding: 10px;
+}
+
+.player {
+    margin-top: 15%;
 }
 

@@ -29,12 +29,18 @@
             </div>
             <div class="units-row">
                 <div class="unit-push-60">
-                    <p class="lead">New songs will be released soon...</p>
+                    <p class="bold">New songs will be released soon...</p>
                 </div>
-                <div class="unit-20">
+                <div class="unit-40">
                     
                 </div>
             </div>
+            <div class="units-row">
+                <div class="unit-push-05 player">
+                    <%--<iframe width="15%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/164734462&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>--%>
+                </div>
+            </div>
+
         </div>
     </form>
 </body>
